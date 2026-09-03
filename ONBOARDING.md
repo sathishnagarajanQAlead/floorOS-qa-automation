@@ -61,8 +61,9 @@ and then run your module's specs. If `<your-module>` isn't in
    `gotoAuthenticated()` (not `goto()`) for your entry point, so the
    cached shell login actually applies (see the comment on that method).
 4. Wire new page objects into `src/fixtures/<your-module>.fixtures.ts`.
-5. Claim your rows in [`CODEOWNERS`](./CODEOWNERS) — replace the
-   `@replace-with-<module>-qa` placeholder with your GitHub handle.
+5. Claim your rows in [`CODEOWNERS`](./CODEOWNERS) — every row currently
+   points at `@sathishnagarajanQAlead` as a stand-in; replace your
+   module's rows with your own GitHub handle.
 
 Full details, including the local → dev promotion flow, are in the
 [README](./README.md).

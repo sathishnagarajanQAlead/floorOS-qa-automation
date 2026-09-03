@@ -1,53 +1,55 @@
-# One QA per floorOS module. Replace each placeholder with the owning
-# QA's GitHub handle (mirrors the pattern in floorOS's own CODEOWNERS).
-# A QA's changes should only ever touch their own rows below.
+# One QA per floorOS module. Every row below currently points at
+# @sathishnagarajanQAlead as a resolvable stand-in — module ownership
+# isn't assigned yet. Update each module's rows to that QA's real GitHub
+# handle as soon as it is; a QA's changes should only ever touch their
+# own rows below.
 
 # CRM
-/tests/crm/                    @replace-with-crm-qa
-/src/pages/crm/                @replace-with-crm-qa
-/src/fixtures/crm.fixtures.ts  @replace-with-crm-qa
+/tests/crm/                    @sathishnagarajanQAlead
+/src/pages/crm/                @sathishnagarajanQAlead
+/src/fixtures/crm.fixtures.ts  @sathishnagarajanQAlead
 
 # Fabric Mill
-/tests/mill/                    @replace-with-mill-qa
-/src/pages/mill/                @replace-with-mill-qa
-/src/fixtures/mill.fixtures.ts  @replace-with-mill-qa
+/tests/mill/                    @sathishnagarajanQAlead
+/src/pages/mill/                @sathishnagarajanQAlead
+/src/fixtures/mill.fixtures.ts  @sathishnagarajanQAlead
 
 # Costing
-/tests/costing/                    @replace-with-costing-qa
-/src/pages/costing/                @replace-with-costing-qa
-/src/fixtures/costing.fixtures.ts  @replace-with-costing-qa
+/tests/costing/                    @sathishnagarajanQAlead
+/src/pages/costing/                @sathishnagarajanQAlead
+/src/fixtures/costing.fixtures.ts  @sathishnagarajanQAlead
 
 # Planning
-/tests/planning/                    @replace-with-planning-qa
-/src/pages/planning/                @replace-with-planning-qa
-/src/fixtures/planning.fixtures.ts  @replace-with-planning-qa
+/tests/planning/                    @sathishnagarajanQAlead
+/src/pages/planning/                @sathishnagarajanQAlead
+/src/fixtures/planning.fixtures.ts  @sathishnagarajanQAlead
 
 # Techpack
-/tests/techpack/                    @replace-with-techpack-qa
-/src/pages/techpack/                @replace-with-techpack-qa
-/src/fixtures/techpack.fixtures.ts  @replace-with-techpack-qa
+/tests/techpack/                    @sathishnagarajanQAlead
+/src/pages/techpack/                @sathishnagarajanQAlead
+/src/fixtures/techpack.fixtures.ts  @sathishnagarajanQAlead
 
 # Master Data
-/tests/master-data/                       @replace-with-master-data-qa
-/src/pages/master-data/                   @replace-with-master-data-qa
-/src/fixtures/master-data.fixtures.ts     @replace-with-master-data-qa
+/tests/master-data/                       @sathishnagarajanQAlead
+/src/pages/master-data/                   @sathishnagarajanQAlead
+/src/fixtures/master-data.fixtures.ts     @sathishnagarajanQAlead
 
 # Admin
-/tests/admin/                    @replace-with-admin-qa
-/src/pages/admin/                @replace-with-admin-qa
-/src/fixtures/admin.fixtures.ts  @replace-with-admin-qa
+/tests/admin/                    @sathishnagarajanQAlead
+/src/pages/admin/                @sathishnagarajanQAlead
+/src/fixtures/admin.fixtures.ts  @sathishnagarajanQAlead
 
 # Copilot
-/tests/copilot/                    @replace-with-copilot-qa
-/src/pages/copilot/                @replace-with-copilot-qa
-/src/fixtures/copilot.fixtures.ts  @replace-with-copilot-qa
+/tests/copilot/                    @sathishnagarajanQAlead
+/src/pages/copilot/                @sathishnagarajanQAlead
+/src/fixtures/copilot.fixtures.ts  @sathishnagarajanQAlead
 
 # Shared framework internals (config, shell login, base classes, CI) —
 # changes here affect every module, so review as a team rather than
 # routing to one owner.
-/playwright.config.ts       @replace-with-framework-lead
-/src/config/                @replace-with-framework-lead
-/src/pages/base.page.ts     @replace-with-framework-lead
-/src/pages/shell/           @replace-with-framework-lead
-/src/api/base.api-client.ts @replace-with-framework-lead
-/src/fixtures/auth-setup.ts @replace-with-framework-lead
+/playwright.config.ts       @sathishnagarajanQAlead
+/src/config/                @sathishnagarajanQAlead
+/src/pages/base.page.ts     @sathishnagarajanQAlead
+/src/pages/shell/           @sathishnagarajanQAlead
+/src/api/base.api-client.ts @sathishnagarajanQAlead
+/src/fixtures/auth-setup.ts @sathishnagarajanQAlead
