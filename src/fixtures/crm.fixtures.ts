@@ -1,0 +1,25 @@
+import { test as base } from '@playwright/test';
+import { CrmPage } from '../pages/crm/crm.page';
+import { CreateCustomerPage } from '../pages/crm/create-customer.page';
+
+interface CrmFixtures {
+  crmPage: CrmPage;
+  createCustomerPage: CreateCustomerPage;
+}
+
+/**
+ * Fixture set scoped to the CRM module only. Each module gets its own
+ * file on purpose — the CRM QA never needs to touch another module's
+ * fixtures, and vice versa.
+ */
+export const test = base.extend<CrmFixtures>({
+  crmPage: async ({ page }, use) => {
+    await use(new CrmPage(page));
+  },
+
+  createCustomerPage: async ({ page }, use) => {
+    await use(new CreateCustomerPage(page));
+  },
+});
+
+export { expect } from '@playwright/test';
